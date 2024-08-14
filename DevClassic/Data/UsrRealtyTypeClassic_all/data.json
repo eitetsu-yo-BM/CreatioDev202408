@@ -36,27 +36,11 @@
       "Row": [
         {
           "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
-          "Value": "c939a7de-b5a9-4035-a660-8440a249e7c7"
-        },
-        {
-          "SchemaColumnUId": "969fe168-b45c-b62d-9bd4-7b491b9cb8c5",
-          "Value": ""
-        },
-        {
-          "SchemaColumnUId": "bd1ae62a-c6c8-ed98-c661-ac6889153abe",
-          "Value": ""
-        }
-      ]
-    },
-    {
-      "Row": [
-        {
-          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
           "Value": "ff186597-f4f8-4953-83a6-ad49998f92f9"
         },
         {
           "SchemaColumnUId": "969fe168-b45c-b62d-9bd4-7b491b9cb8c5",
-          "Value": ""
+          "Value": "001"
         },
         {
           "SchemaColumnUId": "bd1ae62a-c6c8-ed98-c661-ac6889153abe",
