@@ -2,13 +2,12 @@
   "Descriptor": {
     "UId": "eda7a6a7-80c4-444f-ac98-4cbe6cdbfc05",
     "Name": "UsrRealty_ListPage",
-    "ModifiedOnUtc": "\/Date(1723630544000)\/",
+    "ModifiedOnUtc": "\/Date(1723709879000)\/",
     "Parent": {
       "UId": "3334b6c0-c8ab-4b59-a367-0c9182102552",
       "Name": "ListPageV2Template"
     },
     "ManagerName": "ClientUnitSchemaManager",
-    "Caption": "Realty list page",
-    "DependsOn": []
+    "Caption": "Realty list page"
   }
 }
