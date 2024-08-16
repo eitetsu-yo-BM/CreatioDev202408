@@ -463,19 +463,19 @@ define("UsrRealty_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
               return next?.handle(request);	
             }
           },
-          {				
-           request: "crt.HandleViewModelAttributeChangeRequest",					
-           handler: async (request, next) => {	
-             /* if price changed or percent changed */
-             if (request.attributeName === 'PDS_UsrPriceUSD_vfy36iu' ||  request.attributeName === 'PDS_UsrOfferTypeUsrCommissionPercent' ) {	       
-               var price = await request.$context.PDS_UsrPriceUSD_vfy36iu;						
-               var percent = await request.$context.PDS_UsrOfferTypeUsrCommissionPercent;						
-               var commission = price * percent / 100;						
-               request.$context.PDS_UsrCommissionUSD_fgw6f08 = commission;					
-             }					
-             /* Call the next handler if it exists and return its result. */					
-             return next?.handle(request);				
-           }			
+          {
+           request: "crt.HandleViewModelAttributeChangeRequest",
+           handler: async (request, next) => {
+             /* if price changed or percent changed */
+             if (request.attributeName === 'PDS_UsrPriceUSD_vfy36iu' || request.attributeName === 'PDS_UsrOfferTypeUsrCommissionPercent') {	       
+               var price = await request.$context.PDS_UsrPriceUSD_vfy36iu;						
+               var percent = await request.$context.PDS_UsrOfferTypeUsrCommissionPercent;
+               var commission = price * percent / 100;
+               request.$context.PDS_UsrCommissionUSD_fgw6f08 = commission;
+             }		
+             /* Call the next handler if it exists and return its result. */		
+             return next?.handle(request);
+           }
          }
         ]/**SCHEMA_HANDLERS*/,
 		converters: /**SCHEMA_CONVERTERS*/{}/**SCHEMA_CONVERTERS*/,

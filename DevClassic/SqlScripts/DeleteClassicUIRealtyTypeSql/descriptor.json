@@ -1,0 +1,11 @@
+﻿{
+  "SqlScript": {
+    "UId": "d4a8be7c-3ff7-4c14-1dc9-c7948272635f",
+    "Name": "DeleteClassicUIRealtyTypeSql",
+    "DBEngineType": 0,
+    "InstallType": 2,
+    "ModifiedOnUtc": "\/Date(1723789611000)\/",
+    "BackwardCompatibilityConfirmed": false,
+    "DependsOn": []
+  }
+}
