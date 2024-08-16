@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "c98955e6-791d-e41a-a11f-8298b619c4fe",
     "Name": "UsrRealtyOfferType_value",
-    "ModifiedOnUtc": "\/Date(1723715156000)\/",
+    "ModifiedOnUtc": "\/Date(1723803276000)\/",
     "InstallType": 0,
     "Schema": {
       "UId": "fafeaabd-f447-4b46-b6da-5b56f74362e1",
@@ -10,18 +10,11 @@
     },
     "Columns": [
       {
-        "ColumnUId": "e80190a5-03b2-4095-90f7-a193a960adee",
+        "ColumnUId": "9928edec-4272-425a-93bb-48743fee4b04",
         "IsForceUpdate": false,
         "IsKey": false,
-        "ColumnName": "CreatedOn",
+        "ColumnName": "ModifiedOn",
         "DataTypeValueUId": "d21e9ef4-c064-4012-b286-fa1a8171da44"
-      },
-      {
-        "ColumnUId": "736c30a7-c0ec-4fa9-b034-2552b319b633",
-        "IsForceUpdate": false,
-        "IsKey": false,
-        "ColumnName": "Name",
-        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
       },
       {
         "ColumnUId": "9beb5aad-707d-1816-940c-41f6d220b5a8",
@@ -31,17 +24,10 @@
         "DataTypeValueUId": "5cc8060d-6d10-4773-89fc-8c12d6f659a6"
       },
       {
-        "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
-        "IsForceUpdate": false,
-        "IsKey": true,
-        "ColumnName": "Id",
-        "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
-      },
-      {
-        "ColumnUId": "9928edec-4272-425a-93bb-48743fee4b04",
+        "ColumnUId": "e80190a5-03b2-4095-90f7-a193a960adee",
         "IsForceUpdate": false,
         "IsKey": false,
-        "ColumnName": "ModifiedOn",
+        "ColumnName": "CreatedOn",
         "DataTypeValueUId": "d21e9ef4-c064-4012-b286-fa1a8171da44"
       },
       {
@@ -50,6 +36,27 @@
         "IsKey": false,
         "ColumnName": "Description",
         "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "736c30a7-c0ec-4fa9-b034-2552b319b633",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Name",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "054a5a96-4b9d-2638-153f-915520138302",
+        "IsForceUpdate": true,
+        "IsKey": false,
+        "ColumnName": "UsrColor",
+        "DataTypeValueUId": "dafb71f9-ee9f-4e0b-a4d7-37aa15987155"
+      },
+      {
+        "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+        "IsForceUpdate": false,
+        "IsKey": true,
+        "ColumnName": "Id",
+        "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
       }
     ]
   }
