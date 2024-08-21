@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "00de9b0d-c920-45de-a74d-24dcdff600e0",
+    "Name": "UsrAvgRealtyPriceOutPutPage",
+    "ModifiedOnUtc": "\/Date(1724147478000)\/",
+    "Parent": {
+      "UId": "27e1b215-163a-4b82-b0a6-9872a8dde6e4",
+      "Name": "PageWithTopAreaAndTabsFreedomTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Average realty price output page"
+  }
+}

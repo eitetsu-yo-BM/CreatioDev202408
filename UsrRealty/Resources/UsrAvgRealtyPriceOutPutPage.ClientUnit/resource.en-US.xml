@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Average realty price output page" />
+			<Item Name="LocalizableStrings.Input_8re9boc_label.Value" Value="Text" />
+			<Item Name="Parameters.500808f9-4eac-9b58-108b-39a6c8df2522.Caption" Value="Average price, USD/m2" />
+			<Item Name="Parameters.7c3b99fe-84c7-e45c-42ea-2ca99cf1add6.Caption" Value="SQL Text" />
+			<Item Name="Parameters.f301daa1-2862-672c-e511-805b62fe31d6.Caption" Value="Text 1" />
+		</Items>
+	</Group>
+</Resources>

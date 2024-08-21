@@ -1,0 +1,22 @@
+﻿{
+  "Descriptor": {
+    "UId": "4ffa51f6-34ea-4ec0-8344-cebfd8e76f94",
+    "Name": "UsrRealtyMigration",
+    "Type": 1,
+    "Maintainer": "Customer",
+    "ProjectPath": "Files/UsrRealtyMigration.csproj",
+    "DependsOn": [
+      {
+        "UId": "012e2e14-082b-ac2b-da5a-2fc87bad41d4",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtCore",
+        "Type": 1
+      },
+      {
+        "UId": "493a4f44-bdf1-19d9-8d43-01a48ac28ad8",
+        "Name": "DevClassic",
+        "Type": 1
+      }
+    ]
+  }
+}
